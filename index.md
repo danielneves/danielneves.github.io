@@ -3,4 +3,4 @@ layout: home
 ---
 
 Hey!
-instagram.com/danielneves
+<a href="http://instagram.com/danielneves">instagram.com/danielneves</a>
