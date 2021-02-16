@@ -24,8 +24,3 @@ twitter_username: danielneves
 github_username:  danielneves
 instagram_username: danielneves
 linkedin_username: nevesdaniel
-
-# Build settings
-theme: jekyll-theme-dinky
-plugins:
-  - jekyll-feed
