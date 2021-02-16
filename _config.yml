@@ -23,3 +23,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: danielneves
 github_username:  danielneves
 instagram_username: danielneves
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
