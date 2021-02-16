@@ -24,6 +24,7 @@ twitter_username: danielneves
 github_username:  danielneves
 instagram_username: danielneves
 
+url: "http://danielneves.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
