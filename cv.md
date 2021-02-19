@@ -5,7 +5,7 @@ permalink: /cv/
 
 ---
 # Currículo
-Meu Currículo em pdf pode ser baixado [aaqui](/files/DanielNevesCurriculo.pdf).
+Meu Currículo em pdf pode ser baixado [aqui](/files/DanielNevesCurriculo.pdf).
 
 # Portfolio
 Meu Portfolio em pdf pode ser baixado [aqui](/files/DanielNevesPortfolio.pdf).
