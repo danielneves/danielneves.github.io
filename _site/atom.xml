@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Asko</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-05-23T22:43:00-03:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>danielneves</name>
+   <email>contato@danielneves.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Abril</title>
+   <link href="http://localhost:4000/2021/05/23/abril"/>
+   <updated>2021-05-23T00:32:23-03:00</updated>
+   <id>http://localhost:4000/2021/05/23/abril</id>
+   <content type="html">&lt;p&gt;Desenhos de Abril&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/img/danielneves_0420_1.jpeg&quot; alt=&quot;1&quot; /&gt;
+&lt;img src=&quot;/files/img/danielneves_0420_2.jpeg&quot; alt=&quot;2&quot; /&gt;
+&lt;img src=&quot;/files/img/danielneves_0420_3.jpeg&quot; alt=&quot;3&quot; /&gt;
+&lt;img src=&quot;/files/img/danielneves_0420_4.jpeg&quot; alt=&quot;4&quot; /&gt;
+&lt;img src=&quot;/files/img/danielneves_0420_5.jpeg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Olá!!</title>
+   <link href="http://localhost:4000/2021/02/16/hello"/>
+   <updated>2021-02-16T00:32:23-03:00</updated>
+   <id>http://localhost:4000/2021/02/16/hello</id>
+   <content type="html">&lt;p&gt;Olá! Sou Daniel Neves, designer e artista visual.&lt;/p&gt;
+
+&lt;p&gt;Esse é meu site que, em breve, contará com meu portfolio e blog.
+Enquanto isso, você pode acessar o currículo e portfolio &lt;a href=&quot;/cv&quot;&gt;aqui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Meu portfolio em pdf &lt;a href=&quot;/files/DanielNevesPortfolio.pdf&quot;&gt;aqui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Até mais!
+(:&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
