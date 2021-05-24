@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Daniel Neves é designer gráfico/web, ilustrador e artista visual. 
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: danielneves
 github_username:  danielneves
 instagram_username: danielneves
 
