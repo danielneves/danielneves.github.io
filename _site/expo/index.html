@@ -8,33 +8,65 @@
     <meta name="author" content="DanieL Neves">
     <meta name="description" content="Trabalho de Daniel Neves para expo">
     <meta name="keywords" content="art,daniel neves, local">
-
+    <script src="https://cdn.jsdelivr.net/npm/geolib@3.3.1/lib/index.min.js"></script>
 
     <title>daniel neves expo</title>
 </head>
 
 <body>
-    <h1>Instruções trabalho daniel - expo v 0.1</h1>
+    <h1>Instruções trabalho daniel - expo v 0.2</h1>
     <p>Me conceda suas coordenadas?</p>
 
     <button onclick="getLocation()">Autorizar localização.</button>
 
     <p id="demo"></p>
-
+    <img id="mainPicture"></img>
+    <audio id="Audio"></audio>
     <script>
-        var x = document.getElementById("demo");
+        let demoElement = document.getElementById("demo");
+        const imageElement = document.getElementById('mainPicture');
+
+        const geolib = window.geolib;
+
+        const danyLocations = [{
+            latitude: -3.71,
+            longitude: -38.57,
+            name: 'PRACA FERREIRA',
+            image: 'http://www.granmarquise.com.br/wp-content/uploads/2018/06/praca-do-ferreira.jpg'
+        }, {
+            latitude: -3.749038,
+            longitude: -38.51664,
+            name: 'LIONS',
+            image: 'https://i.pinimg.com/236x/17/50/c8/1750c8a843d64aedbdd80978d5d9576a.jpg'
+        }, {
+            latitude: -3.77,
+            longitude: -38.50,
+            name: 'PRAIA DOS CRUSH'
+        }];
 
         function getLocation() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPosition);
             } else {
-                x.innerHTML = "Geolocation is not supported by this browser.";
+                demoElement.innerHTML = "Seu navedador nao suporta o recurso de geolocalizacao.";
             }
         }
 
         function showPosition(position) {
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
+            const nearest = geolib.findNearest(position.coords, danyLocations);
+
+            demoElement.innerHTML = `O LUGAR MAIS PERTO EH ${nearest.name}`;
+            imageElement.src = nearest.image;
+
+            // console.log('O LUGAR MAIS PERTO', nearest.name);
+            // danyLocations.forEach(danyLocation => {
+            //     console.log(danyLocation, position.coords);
+            //     const distance = geolib.getDistance(danyLocation, position.coords);
+            //     console.log(`sua distancia ate ${danyLocation.name} eh de ${distance}`);
+            // });
+            // demoElement.innerHTML = "Latitude: " + position.coords.latitude +
+            //     "<br>Longitude: " + position.coords.longitude +
+            //     "<br>Acuracia: " + position.coords.accuracy;
         }
     </script>
 </body>
