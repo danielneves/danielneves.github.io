@@ -10,4 +10,4 @@ Meu Portfolio em pdf pode ser baixado [aqui](/files/DanielNevesPortfolio.pdf) e 
 
 O protótipo do último projeto em UX/UI Design que está sendo desenvolvido pode ser acessado <a href="https://www.figma.com/file/4UoVc9nPiFQra53osCHtbp/Leeeer-Daniel-Neves">aqui</a>.
 
-<a href="https://www.figma.com/file/4UoVc9nPiFQra53osCHtbp/Leeeer-Daniel-Neves"><img src="/files/img/leer.png" /></a>
+<a href="https://www.figma.com/proto/4UoVc9nPiFQra53osCHtbp/Leeeer-Daniel-Neves?page-id=0%3A1&node-id=2%3A2&viewport=-1636%2C289%2C2&scaling=scale-down&starting-point-node-id=2%3A2&show-proto-sidebar=1"><img src="/files/img/leer.png" /></a>
