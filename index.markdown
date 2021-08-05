@@ -4,7 +4,7 @@
 
 layout: home
 ---
- Moro em Fortaleza, tenho 31 anos, sou formado em <b>Design</b> pela UniFanor e <b>técnico em Infomrática</b> pelo IFCE. Desde a adolescência, quando já fuçava nas páginas em HTML para ver o que resultava, o que mais me interessava era a ideia de me comunicar com o outro através das minhas criações. A partir dessa motivação já estudei "webdesign", design gráfico, ilustração, artes visuais e até mesmo dança.
+ Moro em Fortaleza, tenho 31 anos, sou formado em <b>Design</b> pela UniFanor e <b>técnico em Informática</b> pelo IFCE. Desde a adolescência, quando já fuçava nas páginas em HTML para ver o que resultava, o que mais me interessava era a ideia de me comunicar com o outro através das minhas criações. A partir dessa motivação já estudei "webdesign", design gráfico, ilustração, artes visuais e até mesmo dança.
  
 Hoje, meu foco profissional e de estudos é UX/UI Design, tendo concluído alguns cursos como o Bootcamp do IGTI e cursos curtos como do Awari e intesivos como o da Inter.
 
