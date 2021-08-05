@@ -12,4 +12,4 @@ Meu Portfolio em pdf pode ser baixado [aqui](/files/DanielNevesPortfolio.pdf) e 
 
 O protótipo do último projeto em UX/UI Design que está sendo desenvolvido pode ser acessado <a href="https://bit.ly/leeeer_figma">aqui</a>.
 
-<a href="https://bit.ly/leeeer_figma"><img src="/files/img/leer.png" /></a>
+<a href="https://bit.ly/leeeer_figma"><img src="/files/img/leer.jpg" /></a>
