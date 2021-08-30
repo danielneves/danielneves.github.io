@@ -8,7 +8,7 @@ layout: home
  
 Hoje, meu foco profissional e de estudos é UX/UI Design, tendo concluído alguns cursos como o Bootcamp do IGTI e cursos curtos como do Awari e intesivos como o da Inter.
 
-Meu Portfolio em pdf pode ser baixado [aqui](/files/DanielNevesPortfolio.pdf) e o meu Currículo em pdf [aqui](/files/Daniel_Neves_Curriculo_.pdf). Meu <a href="https://www.linkedin.com/in/nevesdaniel/?locale=pt_BR">linkedin</a>.
+Meu Portfolio em pdf pode ser baixado [aqui](/files/DanielNevesPortfolio.pdf) e o meu Currículo em pdf [aqui](/files/Daniel_Neves_CV.pdf). Meu <a href="https://www.linkedin.com/in/nevesdaniel/?locale=pt_BR">linkedin</a>.
 
 O protótipo do último projeto em UX/UI Design que está sendo desenvolvido pode ser acessado <a href="https://bit.ly/leeeer_figma">aqui</a>.
 
