@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Hello World!!"
+date:   2021-02-16 00:32:23 -0300
+categories: portfolio
+---
+
+Olá! Sou Daniel Neves, designer e artista visual.
+
+Esse é meu site que, em breve, contará com meu portfolio e blog.
+Enquanto isso, você pode acessar o currículo e portfolio [aqui](/cv)
+
+Meu portfolio em pdf [aqui](/files/DanielNevesPortfolio.pdf)
+
+Até mais!
+(:
