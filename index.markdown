@@ -6,7 +6,7 @@ layout: home
 ---
  Mora em Fortaleza - Ceará, Brasil. Trabalho com criação de produtos digitais e criativos. 
 
- Formações: <b>Bacharel em Design - UniFanor</b>, <strong>Técnico em Informática - IFCE</strong>
+ Formações: Bacharel em Design - UniFanor, Técnico em Informática - IFCE e Bootcamp UX Designer IGTI.
 
 Meu Portfolio em pdf pode ser baixado [aqui](/files/DanielNevesPortfolio.pdf) e o meu Currículo em pdf [aqui](/files/Daniel_Neves_CV.pdf). Meu <a href="https://www.linkedin.com/in/nevesdaniel/?locale=pt_BR">linkedin</a>.
 
