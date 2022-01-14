@@ -7,11 +7,14 @@ layout: home
  Moro em Fortaleza - Ceará, Brasil. Trabalho com criação de produtos digitais e criativos. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <strong>Formações</strong>
  <br />
   Bacharel em Design - UniFanor, Técnico em Informática - IFCE e Bootcamp UX Designer IGTI.
 =======
+=======
+>>>>>>> parent of 8a75af0... email
  Formações: Bacharel em Design - UniFanor, Técnico em Informática - IFCE e Bootcamp UX Designer IGTI.
 >>>>>>> parent of 8a75af0... email
 
