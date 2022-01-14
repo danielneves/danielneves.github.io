@@ -27,5 +27,5 @@ url: "http://danielneves.com" # the base hostname & protocol for your site, e.g.
 
 # Build settings
 theme: minima
-plugins:
+# plugins:
   # - jekyll-feed
