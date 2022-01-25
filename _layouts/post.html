@@ -1,38 +1,50 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.modified_date -%}
-        ~ 
-        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
-        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-          {{ mdate | date: date_format }}
-        </time>
-      {%- endif -%}
-      {%- if page.author -%}
-        • {% for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      {%- endif -%}</p>
-  </header>
+<main class="main-content fadeInDown delay_075s">
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{page.title}}</h1>
+      <div class="post-meta">
+        {% if page.tags.size > 0 %}<span class="post-tags"> in {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
+      </div><!-- .post-meta -->
+      {% if page.feature_image and page.feature_image != "" %}
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
+      </figure><!-- .post-thumbnail -->
+      {% endif %}
+    </header><!-- .post-header -->
+    <div class="post-content">
+      {{content}}
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Compartilhar:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ page.url | absolute_url }}" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}&amp;t={{ page.title | uri_escape }}" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      {% if site.data.author.image and site.data.author.image != "" %}
+      <div class="author-avatar" style="background-image: url('{{ site.data.author.image }}')"><span class="screen-reader-text">{{ site.data.author.name }}'s Picture</span></div>
+      {% endif %}
+      <div class="author-details">
+        <h2 class="author-title">About {{ site.data.author.name }}</h2>
+        <div class="author-bio">{{ site.data.author.bio | markdownify }}</div>
+        {% if site.data.author.location and site.data.author.location != "" %}
+        <span class="author-location">{{ site.data.author.location}}</span>
+        {% endif %}
+        {% if site.data.author.url and site.data.author.url != "" %}
+        <span class="author-website"><a href="{{ site.data.author.url }}" target="_blank" rel="noopener">{{ site.data.author.url }}</a></span>
+        {% endif %}
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  {% if site.disqus and site.disqus != "" %}
+    {% include disqus.html %}
+  {% endif %}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+</main><!-- .main-content -->

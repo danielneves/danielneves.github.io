@@ -1,31 +1,69 @@
 # Welcome to Jekyll!
 #
-#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-title: Daniel Neves - UX Designer
-email: contato@danielneves.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Designer, ilustrador e artista visual. 
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username:  nevesdaniel
-instagram_username: danielneves
+# Site language
+lang: pt-BR
 
-url: "http://danielneves.com" # the base hostname & protocol for your site, e.g. http://example.com
+# Site title
+title: "Daniel Neves - UX Designer"
 
-# Build settings
-theme: minima
-# plugins:
-  # - jekyll-feed
+# A description of your site for meta tag, search engine results.
+description: "UX Designer, ilustrador e artista visual"
+
+# The subpath of your site, e.g. /blog, for generating urls.
+baseurl: ""
+
+# The base hostname & protocol of your site for where absolute urls are needed.
+url: "https://scriptor-jekyll.netlify.com"
+
+# Favicon
+favicon: images/favicon.png
+
+# Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: "G-VJ8EPY4MF8"
+
+# Site navigation - each item must have a title and a url.
+navigation:
+  # - text: Home
+  #   url: /
+  - text: Contato
+    url: /contato/
+  - text: Portfolio(pdf)
+    url: /files/Daniel_Neves_Portfolio.pdf
+  - text: Currículo(pdf)
+    url: /files/Daniel_Neves_CV.pdf
+
+# # The shortname for your Disqus site to enable comments.
+# disqus: justgoodthemes
+
+# Colors
+accent_color: '#25dbdb'
+
+# Site footer
+footer:
+  content: "contato@danielneves.com"
+  has_social: true
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 3
+paginate_path: '/page:num/'
+
+
+# Permalinks
+permalink: /:title
+
+# # Conversion
+# markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,34 +1,13 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ " / " | relative_url }}"></data>
-
-    <div class="wrapper">
-
-        <div class="footer-col-wrapper">
-            <div class="footer-col">
-                {{ site.title | escape }}
-                <p class="feed-subscribe">
-                </p>
-
-                {%- if site.author %}
-                <ul class="contact-list">
-                    {% if site.author.name -%}
-                    <li class="p-name">{{ site.author.name | escape }}</li>
-                    {% endif -%} {% if site.author.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-                    {%- endif %}
-                </ul>
-                {%- endif %}
-            </div>
-            <div class="footer-col">
-                <p>{{ site.description | escape }}</p>
-            </div>
-        </div>
-
-        <div class="social-links">
-
-            {%- include social.html -%}
-        </div>
-
-    </div>
-
-</footer>
+<footer class="site-footer">
+  <div class="offsite-links">
+    {% if site.footer.has_social %}
+      {% include social.html %}
+    {% endif %}
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      {{ site.footer.content | markdownify }}
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
