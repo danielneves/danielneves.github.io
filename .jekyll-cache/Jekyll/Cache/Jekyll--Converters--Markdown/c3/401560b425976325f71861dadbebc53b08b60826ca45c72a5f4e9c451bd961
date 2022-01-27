@@ -1,0 +1,23 @@
+I"f<blockquote>
+  <p>contato@danielneves.com</p>
+</blockquote>
+
+<form action="https://usebasin.com/f/bddb30cd16f6" method="POST" enctype="multipart/form-data" id="form">
+    <label for="name">Nome</label>
+    <input type="text" name="name" />
+    <label for="email">Email</label>
+    <input type="email" name="email" required="" />
+    <label for="message">Mensagem</label>
+    <textarea name="message"></textarea>
+    <label for="checkbox1">Checkbox</label>
+    <input type="checkbox" name="checkbox1" />
+    <label for="checkbox2">Checkbox</label>
+    <input type="checkbox" name="checkbox2" />
+    <label for="radio1">Radio1</label>
+    <input id="radio1" type="radio" name="radio" value="radio1" checked="" />
+    <label for="radio2">Radio2</label>
+    <input id="radio2" type="radio" name="radio" value="radio2" />
+    <button type="submit">Enviar</button>
+  </form>
+
+:ET
