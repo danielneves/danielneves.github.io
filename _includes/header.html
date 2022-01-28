@@ -6,7 +6,7 @@
   {% endif %}
   <nav class="site-navigation">
     <div class="site-navigation-wrap">
-      <h2 class="screen-reader-text">Main navigation</h2>
+      <h2 class="screen-reader-text">Navegação Principal</h2>
       <ul class="menu">
         {% for item in site.navigation %}
         {% assign current = nil %}
@@ -18,11 +18,23 @@
         </li>
         {% endfor %}
       </ul><!-- .menu -->
-      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Fechar Menu</span><span
           class="icon-close" aria-hidden="true"></span></button>
     </div><!-- .site-navigation-wrap -->
   </nav><!-- .site-navigation -->
-  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Abrir Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+  <!-- Hotjar Tracking Code for http://danielneves.com -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2591694,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
 </header>
 
 {% if site.description and site.description != "" and page.url == "/" %}
