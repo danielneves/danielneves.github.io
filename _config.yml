@@ -31,7 +31,7 @@ navigation:
   # - text: Home
   #   url: /
   - text: Contato
-    url: /contato/
+    url: /contact
   - text: Portfolio(pdf)
     url: /files/Daniel_Neves_Portfolio.pdf
   - text: Currículo(pdf)
