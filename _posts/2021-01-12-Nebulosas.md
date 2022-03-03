@@ -9,7 +9,6 @@ tags: [ux, ilustração, designgráfico]
 
 
 
-
 _Edições nebulosas_ é um projeto de experiência literária que pensa a interlocução entre literatura e as artes do corpo. É um espaço que visa, publicar, registrar, apresentar e promover conexões com as mais diversas expressões artísticas e culturais do Ceará por meio da escrita. O projeto pode ser acessado através do link: [Edições Nebulosas online](https://edicoesnebulosas.github.io/).
 
 <!--more-->
