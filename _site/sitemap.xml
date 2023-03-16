@@ -10,7 +10,7 @@
 <loc>http://localhost:4000/contato</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/index_</loc>
 </url>
 <url>
 <loc>http://localhost:4000/sangue</loc>

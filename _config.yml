@@ -9,7 +9,7 @@
 lang: pt-BR
 
 # Site title
-title: "Daniel Neves - UX Designer"
+title: "Daniel Neves | UX Designer"
 
 # A description of your site for meta tag, search engine results.
 description: "UX Designer, ilustrador e artista visual"
@@ -34,8 +34,8 @@ navigation:
     url: /contato
 #  - text: Portfolio(pdf)
 #    url: /files/Daniel_Neves_Portfolio.pdf
-  - text: Currículo(pdf)
-    url: /files/Daniel_Neves_CV.pdf
+  # - text: Currículo(pdf)
+  #   url: /files/Daniel_Neves_CV.pdf
 
 # # The shortname for your Disqus site to enable comments.
 # disqus: justgoodthemes
