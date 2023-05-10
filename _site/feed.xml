@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Daniel Neves | UX Designer</title>
+        <description>UX Designer, ilustrador e artista visual</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 10 May 2023 02:36:30 -0300</pubDate>
+        <lastBuildDate>Wed, 10 May 2023 02:36:30 -0300</lastBuildDate>
+        <generator>Jekyll v4.0.0</generator>
+        
+            <item>
+                <title>Leeer - Uma experiência para descobrir novas leituras</title>
+                <description>&lt;p&gt;O projeto está sendo desevolvido a partir de minha experiência trabalhando na &lt;a href=&quot;https://bece.cultura.ce.gov.br&quot;&gt;Biblioteca Pública Estadual do Ceará&lt;/a&gt; e a partir do urso de UX Design Master do Google/Coursera. Este é um trabalho em desenvolvimento.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Tanto o estudo de caso quanto o protótipo estão sendo desenvolvidos no decorrer do curso.&lt;/p&gt;
+
+&lt;h1 id=&quot;desafio-proposto&quot;&gt;Desafio proposto&lt;/h1&gt;
+&lt;blockquote&gt;
+    Quero ler mais, receber boas recomendações e registras minhas leituras. Como posso fazer isso de forma interessante?
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;cenário-atual&quot;&gt;Cenário atual&lt;/h1&gt;
+&lt;p&gt;Mesmo imerso num ambiente repleto de livros e leitores, que é a biblioteca onde trabalho, como parte da pesquisa inicial, precisava ter uma visão mais ampla do que virá a ser proposto. Com isto em mente, elaborei uma &lt;b&gt;desk research&lt;/b&gt; para compreender melhor o comportamento de leitores.&lt;/p&gt;
+
+&lt;p&gt;A pesquisa resultou em insights interessantes para o desenvolvimento das demais etapas do projeto como entender que&lt;/p&gt;
+
+&lt;p&gt;O contexto de pandemia trouxe mudanças que podem ser evidenciadas no &lt;a href=&quot;https://agenciabrasil.ebc.com.br/geral/noticia/2021-10/dia-nacional-do-livro-habito-da-leitura-aumentou-na-pandemia&quot;&gt;aumento no hábito da leitura&lt;/a&gt; durante esse momento. Foi compreendido também que no aspecto mais amplo, no Brasil, &lt;a href=&quot;https://www.cenpec.org.br/tematicas/retratos-da-leitura-no-brasil-por-que-estamos-perdendo-leitores&quot;&gt;perdeu-se muitos leitores&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Referências dos resultados obtidos:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.opinionbox.com/habitos-de-leitura-no-brasil/&quot;&gt;Hábitos de leitura no Brasil: entenda o comportamento dos leitores brasileiros&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cenpec.org.br/tematicas/retratos-da-leitura-no-brasil-por-que-estamos-perdendo-leitores&quot;&gt;Retratos da leitura no Brasil: por que estamos perdendo leitores
+&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;(Brasil perde 4,6 milhões de leitores em quatro anos, com queda puxada por mais ricos
+)https://g1.globo.com/pop-arte/noticia/2020/09/11/brasil-perde-46-milhoes-de-leitores-em-quatro-anos-com-queda-puxada-por-mais-ricos.ghtml&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Com esses dados em mãos&lt;/p&gt;
+
+&lt;h1 id=&quot;protótipo&quot;&gt;Protótipo&lt;/h1&gt;
+&lt;p&gt;A primeira versão com alguns fluxos podem ser acessados neste link &lt;a href=&quot;https://bit.ly/ler_figma&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 01 Jan 2022 00:00:00 -0300</pubDate>
+                <link>http://localhost:4000/Leeer</link>
+                <guid isPermaLink="true">http://localhost:4000/Leeer</guid>
+                
+                <category>ux</category>
+                
+                <category>wip</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Edições Nebulosas</title>
+                <description>&lt;p&gt;&lt;em&gt;Edições nebulosas&lt;/em&gt; é um projeto de experiência literária que pensa a interlocução entre literatura e as artes do corpo. É um espaço que visa, publicar, registrar, apresentar e promover conexões com as mais diversas expressões artísticas e culturais do Ceará por meio da escrita. O projeto pode ser acessado através do link: &lt;a href=&quot;https://edicoesnebulosas.github.io/&quot;&gt;Edições Nebulosas online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;O conceito do projeto partiu do ator dramaturgo &lt;a href=&quot;instagram.com/omarcosmiramar/&quot;&gt;Marcos Miramar&lt;/a&gt; e tive a oportunidade de desenvolver a identidade visual, ilustrações e desenvolvimento front-end.&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 01 Jan 2022 00:00:00 -0300</pubDate>
+                <link>http://localhost:4000/Nebulosas</link>
+                <guid isPermaLink="true">http://localhost:4000/Nebulosas</guid>
+                
+                <category>ux</category>
+                
+                <category>ilustração</category>
+                
+                <category>designgráfico</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>
