@@ -9,10 +9,10 @@
 lang: pt-BR
 
 # Site title
-title: "Daniel Neves | UX Designer"
+title: "Daniel Neves | Product Designer"
 
 # A description of your site for meta tag, search engine results.
-description: "UX Designer, ilustrador e artista visual"
+description: "Product Designer, UX Designer, ilustrador e artista visual"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -41,7 +41,7 @@ navigation:
 # disqus: justgoodthemes
 
 # Colors
-accent_color: '#25dbdb'
+accent_color: '#1169FF'
 
 # Site footer
 footer:
